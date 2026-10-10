@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puertas Abiertas | Alquiler en Satélite Norte - Santa Cruz</title>
+  <meta name="description" content="Alquiler de casas en Satélite Norte, Santa Cruz de la Sierra, Bolivia. Precios en Bs.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Barra superior -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-2">
+        <div class="w-9 h-9 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold">PA</div>
+        <div>
+          <div class="font-bold text-emerald-700">Puertas Abiertas</div>
+          <div class="text-xs text-emerald-600 -mt-0.5">Satélite Norte · Santa Cruz</div>
+        </div>
+      </a>
+      <div class="hidden sm:flex items-center gap-5 text-sm">
+        <a href="buscar.html" class="text-gray-700 hover:text-emerald-600">Buscar casas</a>
+        <a href="upload.html" class="text-gray-700 hover:text-emerald-600">Publicar casa</a>
+        <a href="upload.html" class="bg-emerald-600 text-white px-4 py-2 rounded-xl font-semibold">+ Publicar</a>
+      </div>
+      <a href="upload.html" class="sm:hidden bg-emerald-600 text-white px-3 py-2 rounded-xl text-sm">+ Publicar</a>
+    </div>
+  </nav>
+
+  <!-- Portada -->
+  <section class="hero min-h-[80vh] flex items-center text-white">
+    <div class="max-w-6xl mx-auto px-4 py-16 text-center">
+      <p class="inline-block bg-emerald-500/30 border border-emerald-400/40 text-emerald-100 text-sm px-4 py-1.5 rounded-full mb-5">
+        <i class="fa-solid fa-location-dot"></i> Satélite Norte · Santa Cruz · Bolivia
+      </p>
+      <h1 class="text-4xl sm:text-5xl font-bold mb-5 leading-tight">
+        Encuentra o publica<br>tu casa en alquiler
+      </h1>
+      <p class="text-lg text-gray-200 max-w-xl mx-auto mb-8">
+        Conectamos dueños e inquilinos en Satélite Norte.
+        Precios en Bolivianos (Bs). Nosotros somos el intermediario.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="buscar.html" class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3.5 rounded-2xl font-semibold text-lg">
+          <i class="fa-solid fa-magnifying-glass"></i> Buscar casas
+        </a>
+        <a href="upload.html" class="bg-white hover:bg-gray-100 text-emerald-700 px-8 py-3.5 rounded-2xl font-semibold text-lg">
+          <i class="fa-solid fa-house"></i> Publicar mi casa
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-3">¿Cómo funciona?</h2>
+      <p class="text-center text-gray-600 mb-12">Simple y claro, en 3 pasos.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 rounded-2xl bg-gray-50 border">
+          <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mx-auto mb-4">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </div>
+          <h3 class="font-bold text-lg mb-2">1. El dueño llena el formulario</h3>
+          <p class="text-gray-600 text-sm">Sube datos y 1 a 4 fotos. Todo se guarda directamente en la base de datos.</p>
+        </div>
+        <div class="text-center p-6 rounded-2xl bg-gray-50 border">
+          <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mx-auto mb-4">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <h3 class="font-bold text-lg mb-2">2. Se publica en el sitio</h3>
+          <p class="text-gray-600 text-sm">Aparece de forma inmediata en el catálogo para que los interesados la vean.</p>
+        </div>
+        <div class="text-center p-6 rounded-2xl bg-gray-50 border">
+          <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mx-auto mb-4">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <h3 class="font-bold text-lg mb-2">3. Contacto y cierre</h3>
+          <p class="text-gray-600 text-sm">El inquilino habla con el dueño por WhatsApp y avisa cuando se alquila.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section class="py-16 bg-emerald-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">¿Por qué Puertas Abiertas?</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-5 rounded-2xl shadow-sm">
+          <div class="text-emerald-600 text-2xl mb-2"><i class="fa-solid fa-map-marker-alt"></i></div>
+          <h4 class="font-semibold mb-1">Solo Satélite Norte</h4>
+          <p class="text-sm text-gray-600">Enfocado en tu zona de Santa Cruz.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow-sm">
+          <div class="text-emerald-600 text-2xl mb-2"><i class="fa-solid fa-coins"></i></div>
+          <h4 class="font-semibold mb-1">Precios en Bs</h4>
+          <p class="text-sm text-gray-600">Todo en bolivianos, sin confusiones.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow-sm">
+          <div class="text-emerald-600 text-2xl mb-2"><i class="fa-brands fa-whatsapp"></i></div>
+          <h4 class="font-semibold mb-1">Contacto directo</h4>
+          <p class="text-sm text-gray-600">El inquilino escribe al dueño por WhatsApp.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl shadow-sm">
+          <div class="text-emerald-600 text-2xl mb-2"><i class="fa-solid fa-user-check"></i></div>
+          <h4 class="font-semibold mb-1">Intermediario local</h4>
+          <p class="text-sm text-gray-600">Control y atención personalizada para la comunidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto rápido -->
+  <section class="py-16 bg-white">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-3">¿Dudas?</h2>
+      <p class="text-gray-600 mb-6">Escríbenos por WhatsApp. Estamos en Satélite Norte, Santa Cruz.</p>
+      <a id="btnWhatsAppContacto" href="#" target="_blank"
+         class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-3.5 rounded-2xl font-semibold text-lg">
+        <i class="fa-brands fa-whatsapp text-xl"></i> Hablar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Pie -->
+  <footer class="bg-gray-900 text-gray-400 py-10">
+    <div class="max-w-6xl mx-auto px-4 text-center text-sm">
+      <p class="text-white font-semibold mb-2">Puertas Abiertas</p>
+      <p class="mb-4">Satélite Norte · Santa Cruz de la Sierra · Bolivia</p>
+      <p>
+        <a href="buscar.html" class="hover:text-white mx-2">Buscar</a> ·
+        <a href="upload.html" class="hover:text-white mx-2">Publicar</a>
+      </p>
+      <p class="mt-6">&copy; 2026 Puertas Abiertas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
